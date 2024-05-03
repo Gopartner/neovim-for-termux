@@ -32,6 +32,12 @@ nvim
 -perintah explore.( :Ex )
 
 
+#### Tampilan Bantuan Neovim
+
+![Tampilan Bantuan Neovim](https://raw.githubusercontent.com/Gopartner/neovim-for-termux/Master/show-help-neovim.jpg)
+
+
+
 ### salin kode ini untuk file "init.lua"
 ```bash
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
