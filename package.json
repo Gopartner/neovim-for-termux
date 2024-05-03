@@ -1,0 +1,11 @@
+{
+  "name": "neovim-for-termux",
+  "version": "1.0.0",
+  "description": "preparing neovim for termux",
+  "scripts": {
+    "push": "git add . && git commit -m \"push dengan package\" && git push"
+  },
+  "keywords": [],
+  "author": "yudibilly",
+  "license": "ISC"
+}
