@@ -16,18 +16,23 @@ pkg install luajit python nodejs-lts ruby openjdk-11 clang perl php
 pkg install neovim
 ```
 
-### Membuat file init.lua di directori berikut:
+#### Membuat file init.lua
+```bash
+touch ~/.local/share/nvim/init.lua
+```
+### pindah ke folder di mana file "init.lua" di buat.
 ```bash
 cd ~/.local/share/nvim/
 ```
-### buka teks editor/neovim dengan perintah:
+
+#### buka teks editor neovim dengan perintah:
 ```bash
 nvim
 ```
--dalam mode nvim editor, ketik ":Ex"(untuk membuatfile
+-perintah explore.( :Ex )
 
 
-### init.lua
+### salin kode ini untuk file "init.lua"
 ```bash
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
